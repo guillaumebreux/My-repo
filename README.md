@@ -10,7 +10,7 @@ This plugin will allowed you to create a smooth one page design.
 - Same for the highlight menu by setting 'activeMenu' as true. Don't forget to add the "anchor" class on every menu links that target an anchor.
 
 This will call the plugin:
-  >`$(document).jqueryOnepage({   
+  `$(document).jqueryOnepage({   
         'returnTop':true,  
         'activeMenu':true  
     }  
