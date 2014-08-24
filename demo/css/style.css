@@ -1,0 +1,23 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+* {margin:0; padding:0;}
+body,html{height:100%;font-family: 'Open Sans', sans-serif;}
+a {color:white;}
+article { position:absolute; top:50%; transform:translate(-50%,-50%); margin-top:-30px; text-align: center; left:50%; z-index:1; width: 80%; height:80%; background: rgba(255,255,255,0.2); border-radius: 10px;}
+p {height:auto; transform:translate(-50%, -50%); left:50%; top:50%; color:white; position:absolute;}
+.title {font-size: 1.8em}
+img {width:50px; opacity:0.9;}
+
+
+.mainmenu {position:absolute; bottom:0; z-index:999; width:100%;}
+ul {display:flex; width:100%; z-index:999}
+ul li {display:flex; background:rgba(0,0,0,0.5); color:white; width:100%; border-right:1px solid #666; text-align:center}
+ul li a {text-decoration:none; display:block; width:100%; height:60px; line-height:60px; }  
+ul li:last-child {border-right:none;}
+ul li:hover a { background:#939393;} 
+section {height:100%;position:relative; background:url('../cartographer.png') repeat;}
+
+
+/*important for the plugin*/
+.stick {position:fixed; top:0; z-index:999; width:100%;}
+.active {background:#939393; color:white;}
+a.returntop { position:fixed; bottom:50px; right:50px; font-size:14px;font-weight:bold; background:#000000; border-radius:10px; display:none; z-index:999; padding:10px; text-decoration: none}

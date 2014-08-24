@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="jQuery plugin for a One page design">
+        <title>jQuery Onepage</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <nav class="mainmenu">
+            <ul>
+                <li><a href="#bloc1" class="smoothLink anchor active">Link n°1</a></li>
+                <li><a href="#bloc2" class="smoothLink anchor">Link n°2</a></li>
+                <li><a href="#bloc3" class="smoothLink anchor">Link n°3</a></li>
+                <li><a href="#bloc4" class="smoothLink anchor">Link n°4</a></li>
+            </ul>
+        </nav>
+
+<a href="#bloc1" class="returntop smoothLink">TOP</a>
+
+<section id="bloc1">
+    <article>
+        <p>
+            <span class="title">jQuery Onepage plugin - Demo page</span> <br>
+            You can download this plugin on <a href="https://github.com/guillaumebreux/jQuery-Onepage">Github</a><br>
+            <img src="arrow.png" alt="">
+        </p>
+    </article>
+</section>
+<section id="bloc2">
+    <article>
+        <p>
+            <span class="title">Second anchor</span> <br>
+            Keep scrolling!<br>
+            <img src="arrow.png" alt="">
+        </p>
+    </article>
+</section>
+<section id="bloc3">
+    <article>
+        <p>
+            <span class="title">Third anchor</span> <br>
+            You can scroll again!<br>
+            <img src="arrow.png" alt="">
+        </p>
+    </article>
+</section>
+<section id="bloc4">
+    <article>
+        <p>
+            <span class="title">Last anchor</span> <br>
+            But you can add as many links as you want! <a href="https://github.com/guillaumebreux/jQuery-Onepage">Download on Github</a>
+        </p>
+    </article>
+</section>
+
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="js/jquery.onepage-min.js"></script>
+        <script type="text/javascript">
+            $(document).jqueryOnepage(
+                {
+                    'returnTop':true,
+                    'activeMenu':true
+                }
+            );
+        </script>  
+
+
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Open+Sans::latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>              
+    </body>
+</html>
+
