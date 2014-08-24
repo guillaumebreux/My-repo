@@ -18,15 +18,15 @@ This will call the plugin:
   );
   
 others options:
-      'menuClass'       : '.mainmenu', //this is the class of your main menu.
-      'stickClass'      : 'stick', //change the name of your sticky class (without dot or #). You'll need to stylise it in a certain way to make it work.
-      'smoothClass'     : '.smoothLink', //Add this class for every links you want to smooth. (don't forget the related anchor)
-      'timeSmooth'      : 800, //Change the duration of the smoothscroll
-      'returnTop'       : false, //set true if you want a returnTop button appears after scrolling a bit.
-      'returnClass'     : 'a.returntop', //if returnTop is true, add your sylized class for a personnal returnTop button
-      'activeMenu'      : false, //set true if you want a highlight class to show to visitor where they currently are in the page.
-      'linkActiveClass' : 'active', //add your class (without dot or #) for a sylized highlight class.
-      'anchorClass'     : '.anchor'//add this class or change the name but you'll need to add this for every anchor link on your main menu for highlighting them.
+      - 'menuClass'       : '.mainmenu', //this is the class of your main menu.
+      - 'stickClass'      : 'stick', //change the name of your sticky class (without dot or #). You'll need to stylise it in a certain way to make it work.
+      - 'smoothClass'     : '.smoothLink', //Add this class for every links you want to smooth. (don't forget the related anchor)
+      - 'timeSmooth'      : 800, //Change the duration of the smoothscroll
+      - 'returnTop'       : false, //set true if you want a returnTop button appears after scrolling a bit.
+      - 'returnClass'     : 'a.returntop', //if returnTop is true, add your sylized class for a personnal returnTop button
+      - 'activeMenu'      : false, //set true if you want a highlight class to show to visitor where they currently are in the page.
+      - 'linkActiveClass' : 'active', //add your class (without dot or #) for a sylized highlight class.
+      - 'anchorClass'     : '.anchor'//add this class or change the name but you'll need to add this for every anchor link on your main menu for highlighting them.
       
 Look at the really sobre demo page, maybe that will help you to install this plugin.      
   
