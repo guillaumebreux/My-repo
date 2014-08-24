@@ -15,8 +15,10 @@ This will call the plugin:
         'activeMenu':true  
     }  
   );`
-  
-others options:
+Demo:
+--------  
+  View a [demo here](http://www.guillaumebreux.com/git-plugin/onepage "jQuery-Onepage")
+Others options:
 --------
 - `'menuClass' : '.mainmenu',` *this is the class of your main menu.*
 - `'stickClass' : 'stick',` *change the name of your sticky class (without dot or #). You'll need to stylise it in a certain way to make it work.*
