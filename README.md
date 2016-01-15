@@ -1,3 +1,6 @@
+Beginner script, do not use in production environment, just take a look for your curiosity :)
+==============
+
 jQuery-Onepage
 ==============
 This plugin will allowed you to create a smooth one page design.
